@@ -78,6 +78,30 @@ h3 {
     padding-right: 10px;
 }
 
+.cal-table th {
+    color:#2c3e50;
+    background: #fff;
+    min-width: 35px;
+    text-align: center;
+}
+.cal-table th.cal-key {
+    color:#2c3e50;
+    background: #fff;
+    min-width: 100px;
+    text-align: center;  
+}
+.cal-table td {
+    color:#fff;
+    background: rgb(17, 111, 189);
+    min-width: 35px;
+    text-align: center;
+}
+.cal-table td.busy {
+    color:#fff;
+    background: #000;
+    text-decoration: line-through;
+}
+
 .table.table-striped thead tr th,
 .table.table-striped tbody tr th {
     font-weight: 700;
