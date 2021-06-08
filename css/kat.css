@@ -21,6 +21,10 @@ h3 {
     fill: #a89787;
 }
 
+.navbar-brand {
+    position: relative;
+    left: -50px;
+}
 .blue {
     color: #00f;
 }
